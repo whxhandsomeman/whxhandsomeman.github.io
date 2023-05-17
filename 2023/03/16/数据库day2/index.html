@@ -20,23 +20,20 @@
     var CONFIG = {"hostname":"whxhandsomeman.github.io","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="1 MarkDown基本语法2 一级标题1. 1 二级标题加粗加粗斜体斜体下划线&gt;引用横线  123456链接:[百度](baidu.com&quot;一个搜索引擎&quot;)引用链接[百度](id)[id]:baidu.com &quot;一个搜索引擎&quot;暂不可用  图片: 有序列表:  的功夫 的风格以第一个数字开始自动编号   2.1 二级标题 4.1 二级标题   无序列表">
+  <meta name="description" content="关系代数-以集合为对象基本操作 并相容性：属性数目相同且每个属性对应属性的域必须相同  并关系a和b共有的元组   差 a-b：出现在关系a中但不出现在关系b中的元组  笛卡尔积 将a与b的所有元组进行可能的拼接，    A1 A2    1 2   3 4      B1 B2    5 6   7 8      A1 A2 B1 B2    1 2 5 6   1 2 7 8   3 4 5">
 <meta property="og:type" content="article">
-<meta property="og:title" content="MarkDown入门">
-<meta property="og:url" content="https://whxhandsomeman.github.io/2023/03/04/MarkDown%E5%85%A5%E9%97%A8/index.html">
+<meta property="og:title" content="数据库day2">
+<meta property="og:url" content="https://whxhandsomeman.github.io/2023/03/16/%E6%95%B0%E6%8D%AE%E5%BA%93day2/index.html">
 <meta property="og:site_name" content="RoseMary">
-<meta property="og:description" content="1 MarkDown基本语法2 一级标题1. 1 二级标题加粗加粗斜体斜体下划线&gt;引用横线  123456链接:[百度](baidu.com&quot;一个搜索引擎&quot;)引用链接[百度](id)[id]:baidu.com &quot;一个搜索引擎&quot;暂不可用  图片: 有序列表:  的功夫 的风格以第一个数字开始自动编号   2.1 二级标题 4.1 二级标题   无序列表">
+<meta property="og:description" content="关系代数-以集合为对象基本操作 并相容性：属性数目相同且每个属性对应属性的域必须相同  并关系a和b共有的元组   差 a-b：出现在关系a中但不出现在关系b中的元组  笛卡尔积 将a与b的所有元组进行可能的拼接，    A1 A2    1 2   3 4      B1 B2    5 6   7 8      A1 A2 B1 B2    1 2 5 6   1 2 7 8   3 4 5">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://www.veer.com/illustration/368621010?utm_source=baidu&utm_medium=imagesearch&chid=902">
-<meta property="og:image" content="https://whxhandsomeman.github.io/luffy.jpg">
-<meta property="article:published_time" content="2023-03-04T14:19:29.000Z">
-<meta property="article:modified_time" content="2023-03-06T01:43:01.071Z">
+<meta property="article:published_time" content="2023-03-16T02:55:59.000Z">
+<meta property="article:modified_time" content="2023-04-26T03:29:32.894Z">
 <meta property="article:author" content="AXi">
 <meta property="article:tag" content="cs">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://www.veer.com/illustration/368621010?utm_source=baidu&utm_medium=imagesearch&chid=902">
 
-<link rel="canonical" href="https://whxhandsomeman.github.io/2023/03/04/MarkDown%E5%85%A5%E9%97%A8/">
+<link rel="canonical" href="https://whxhandsomeman.github.io/2023/03/16/%E6%95%B0%E6%8D%AE%E5%BA%93day2/">
 
 
 <script id="page-configurations">
@@ -49,7 +46,7 @@
   };
 </script>
 
-  <title>MarkDown入门 | RoseMary</title>
+  <title>数据库day2 | RoseMary</title>
   
 
 
@@ -164,7 +161,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://whxhandsomeman.github.io/2023/03/04/MarkDown%E5%85%A5%E9%97%A8/">
+    <link itemprop="mainEntityOfPage" href="https://whxhandsomeman.github.io/2023/03/16/%E6%95%B0%E6%8D%AE%E5%BA%93day2/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/dog.gif">
@@ -177,7 +174,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          MarkDown入门
+          数据库day2
         </h1>
 
         <div class="post-meta">
@@ -187,14 +184,14 @@
               </span>
               <span class="post-meta-item-text">发表于</span>
 
-              <time title="创建时间：2023-03-04 22:19:29" itemprop="dateCreated datePublished" datetime="2023-03-04T22:19:29+08:00">2023-03-04</time>
+              <time title="创建时间：2023-03-16 10:55:59" itemprop="dateCreated datePublished" datetime="2023-03-16T10:55:59+08:00">2023-03-16</time>
             </span>
               <span class="post-meta-item">
                 <span class="post-meta-item-icon">
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2023-03-06 09:43:01" itemprop="dateModified" datetime="2023-03-06T09:43:01+08:00">2023-03-06</time>
+                <time title="修改时间：2023-04-26 11:29:32" itemprop="dateModified" datetime="2023-04-26T11:29:32+08:00">2023-04-26</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -217,41 +214,132 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h1 id="1-MarkDown基本语法"><a href="#1-MarkDown基本语法" class="headerlink" title="1 MarkDown基本语法"></a>1 MarkDown基本语法</h1><h1 id="2-一级标题"><a href="#2-一级标题" class="headerlink" title="2 一级标题"></a>2 一级标题</h1><h2 id="1-1-二级标题"><a href="#1-1-二级标题" class="headerlink" title="1. 1 二级标题"></a>1. 1 二级标题</h2><h2 id="加粗加粗斜体斜体下划线-gt-引用横线"><a href="#加粗加粗斜体斜体下划线-gt-引用横线" class="headerlink" title="加粗加粗斜体斜体下划线&gt;引用横线"></a><strong>加粗</strong><br><strong>加粗</strong><br><em>斜体</em><br><em>斜体</em><br><u>下划线</u><br>&gt;引用<br>横线</h2><hr>
-<hr>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">链接:</span><br><span class="line">[百度](baidu.com&quot;一个搜索引擎&quot;)</span><br><span class="line">引用链接</span><br><span class="line">[百度](id)</span><br><span class="line">[id]:baidu.com &quot;一个搜索引擎&quot;</span><br><span class="line">暂不可用</span><br></pre></td></tr></table></figure>
-
-<p>图片:<br><img src="https://www.veer.com/illustration/368621010?utm_source=baidu&utm_medium=imagesearch&chid=902" alt="百度"></p>
-<p><img src="/luffy.jpg" alt="本地"><br>有序列表:</p>
-<ol>
-<li>的功夫</li>
-<li>的风格<br>以第一个数字开始自动编号</li>
-</ol>
+        <h1 id="关系代数-以集合为对象"><a href="#关系代数-以集合为对象" class="headerlink" title="关系代数-以集合为对象"></a>关系代数-以集合为对象</h1><h2 id="基本操作"><a href="#基本操作" class="headerlink" title="基本操作"></a>基本操作</h2><ol>
+<li><p>并相容性：属性数目相同且每个属性对应属性的域必须相同</p>
+</li>
+<li><p>并<br>关系a和b共有的元组 </p>
+</li>
+<li><p>差<br> a-b：出现在关系a中但不出现在关系b中的元组</p>
+</li>
+<li><p>笛卡尔积<br> 将a与b的所有元组进行可能的拼接，</p>
+<table>
+<thead>
+<tr>
+<th>A1</th>
+<th>A2</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>2</td>
+</tr>
+<tr>
+<td>3</td>
+<td>4</td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th>B1</th>
+<th>B2</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>5</td>
+<td>6</td>
+</tr>
+<tr>
+<td>7</td>
+<td>8</td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th>A1</th>
+<th>A2</th>
+<th>B1</th>
+<th>B2</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>2</td>
+<td>5</td>
+<td>6</td>
+</tr>
+<tr>
+<td>1</td>
+<td>2</td>
+<td>7</td>
+<td>8</td>
+</tr>
+<tr>
+<td>3</td>
+<td>4</td>
+<td>5</td>
+<td>6</td>
+</tr>
+<tr>
+<td>3</td>
+<td>4</td>
+<td>7</td>
+<td>8</td>
+</tr>
+</tbody></table>
+</li>
+<li><p>选择</p>
 <ul>
-<li><a href="#21-%E4%BA%8C%E7%BA%A7%E6%A0%87%E9%A2%98">2.1 二级标题</a></li>
-<li><a href="#41-%E4%BA%8C%E7%BA%A7%E6%A0%87%E9%A2%98">4.1 二级标题</a></li>
-</ul>
-<!-- /TOC -->
-<p>无序列表：</p>
-<ul>
-<li>这样写</li>
-</ul>
-<ul>
-<li>也可以这样写<ul>
-<li>tab缩进</li>
+<li>逻辑运算符 ^, v,¬或写为and,or,not</li>
+<li>比较表达式:XθY θ:大于\大于等于\小于\小于等于\等于\不等于</li>
+<li>优先次序:括号 sita not and or</li>
 </ul>
 </li>
+<li><p>更名操作</p>
+</li>
+<li><p>投影 选出某一列</p>
+</li>
+<li><p>交 A与B共同的元组</p>
+</li>
+<li><p>sita-连接操作 选取笛卡尔积中属性满足A1 sita B2（运算）的元组</p>
+</li>
+<li><p>等值连接 8的一个特例</p>
+</li>
+<li><p>自然连接 相同属性组上的值都相等的元组</p>
+</li>
+<li><p>除 作用：查询···全部的···<br>A➗B&#x3D;C，C属性为A-B，C与B的笛卡尔积皆在A中</p>
+</li>
+<li><p>外连接：左外连接则为左边的关系不损失元组</p>
+</li>
+</ol>
+<h1 id="关系元组"><a href="#关系元组" class="headerlink" title="关系元组"></a>关系元组</h1><h2 id="元组演算-以元组为对象"><a href="#元组演算-以元组为对象" class="headerlink" title="元组演算-以元组为对象"></a>元组演算-以元组为对象</h2><ol>
+<li>原子公式<ul>
+<li>t∈R</li>
+<li>s[A]θc</li>
+<li>s[A]θs[B]</li>
 </ul>
-<p>带方框：</p>
-<ul>
-<li><input disabled="" type="checkbox"> 方框<br>方框带对勾</li>
-<li><input checked="" disabled="" type="checkbox"> 对勾方框</li>
+</li>
+<li>运算符优先次序<ul>
+<li>括弧、sita、存在、任意、非、与、或</li>
 </ul>
-<p>代码块:<br>三个反引号</p>
-<p>数学公式:<br>$$<br>latex<br>$$</p>
-<p>行内使用:<br><code>行内代码</code><br>表情:<br>:名称:<br>:smile:<br>H<del>2</del>O<br>x^2^</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br></pre></td><td class="code"><pre><span class="line"># 3 MarkDown基本语法</span><br><span class="line"></span><br><span class="line"># 4 一级标题</span><br><span class="line">## 1. 1 二级标题</span><br><span class="line"></span><br><span class="line">**加粗**</span><br><span class="line">__加粗__</span><br><span class="line">*斜体*</span><br><span class="line">_斜体_</span><br><span class="line">&lt;u&gt;下划线&lt;/u&gt;</span><br><span class="line">&gt;引用</span><br><span class="line">横线</span><br><span class="line">---</span><br><span class="line">___</span><br><span class="line">***</span><br><span class="line"></span><br><span class="line">链接:</span><br><span class="line">[百度](baidu.com&quot;一个搜索引擎&quot;)</span><br><span class="line">引用链接</span><br><span class="line">[百度](id)</span><br><span class="line">[id]:baidu.com &quot;一个搜索引擎&quot;</span><br><span class="line"></span><br><span class="line">图片:</span><br><span class="line">![百度]([日落时美丽树木的剪影插画图片素材_ID:368621010-Veer图库](https://www.veer.com/illustration/368621010?utm_source=baidu&amp;utm_medium=imagesearch&amp;chid=902)</span><br><span class="line"></span><br><span class="line">有序列表:</span><br><span class="line">1. </span><br><span class="line">2. </span><br><span class="line">以第一个数字开始自动编号</span><br><span class="line"></span><br><span class="line">无序列表：</span><br><span class="line">- 这样写</span><br><span class="line">* 也可以这样写</span><br><span class="line">	* tab缩进</span><br><span class="line">	</span><br><span class="line">	</span><br><span class="line">	</span><br><span class="line">带方框：</span><br><span class="line">- [ ] 方框</span><br><span class="line">方框带对勾</span><br><span class="line">- [x] 对勾方框</span><br><span class="line"></span><br><span class="line">代码块:</span><br><span class="line">三个反引号</span><br><span class="line"></span><br><span class="line">数学公式:</span><br><span class="line">$$</span><br><span class="line">latex</span><br><span class="line">$$</span><br><span class="line"></span><br><span class="line">行内使用:</span><br><span class="line">`行内代码`</span><br><span class="line">表情:</span><br><span class="line">:名称:</span><br><span class="line">:smile:</span><br><span class="line">H~2~O</span><br><span class="line">x^2^</span><br></pre></td></tr></table></figure>
-
+</li>
+</ol>
+<h2 id="全称量词与存在量词"><a href="#全称量词与存在量词" class="headerlink" title="全称量词与存在量词"></a>全称量词与存在量词</h2><pre><code>- 彐(t∈r)(F(t)) 对于关系r中的每一个t，只要存在一个t使得F（t）成立，那这个式子就为真
+</code></pre>
+<h2 id="元组演算等价变换-以域为对象"><a href="#元组演算等价变换-以域为对象" class="headerlink" title="元组演算等价变换-以域为对象"></a>元组演算等价变换-以域为对象</h2><ol>
+<li>等价变换<ul>
+<li>非 等于  等价于    &lt;&gt;</li>
+</ul>
+</li>
+</ol>
+<h2 id="元组域演算"><a href="#元组域演算" class="headerlink" title="元组域演算"></a>元组域演算</h2><pre><code>即为元组演算更精进至属性
+如&#123;&lt;a,b&gt;|&lt;a,b,c,d&gt;∈Student^e&lt;&gt;&#39;03&#39;&#125;
+</code></pre>
+<h2 id="关系演算的安全性"><a href="#关系演算的安全性" class="headerlink" title="关系演算的安全性"></a>关系演算的安全性</h2><pre><code>不产生无限关系和无限验证的运算被称为安全的
+安全元组演算，DOM（fai），将运算范围进行限制
+</code></pre>
+<h2 id=""><a href="#" class="headerlink" title=""></a></h2>
     </div>
 
     
@@ -269,12 +357,12 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2023/03/04/%E5%8F%8C%E6%A0%88%E9%98%9F%E5%88%97/" rel="prev" title="双栈队列">
-      <i class="fa fa-chevron-left"></i> 双栈队列
+    <a href="/2023/03/08/%E6%95%B0%E6%8D%AE%E5%BA%93day1/" rel="prev" title="数据库day1">
+      <i class="fa fa-chevron-left"></i> 数据库day1
     </a></div>
       <div class="post-nav-item">
-    <a href="/2023/03/05/%E8%9B%99%E6%B3%B3/" rel="next" title="蛙泳">
-      蛙泳 <i class="fa fa-chevron-right"></i>
+    <a href="/2023/03/24/%E7%AE%97%E6%B3%95/" rel="next" title="算法-链表">
+      算法-链表 <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
@@ -334,7 +422,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#1-MarkDown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95"><span class="nav-number">1.</span> <span class="nav-text">1 MarkDown基本语法</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2-%E4%B8%80%E7%BA%A7%E6%A0%87%E9%A2%98"><span class="nav-number">2.</span> <span class="nav-text">2 一级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-1-%E4%BA%8C%E7%BA%A7%E6%A0%87%E9%A2%98"><span class="nav-number">2.1.</span> <span class="nav-text">1. 1 二级标题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8A%A0%E7%B2%97%E5%8A%A0%E7%B2%97%E6%96%9C%E4%BD%93%E6%96%9C%E4%BD%93%E4%B8%8B%E5%88%92%E7%BA%BF-gt-%E5%BC%95%E7%94%A8%E6%A8%AA%E7%BA%BF"><span class="nav-number">2.2.</span> <span class="nav-text">加粗加粗斜体斜体下划线&gt;引用横线</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%85%B3%E7%B3%BB%E4%BB%A3%E6%95%B0-%E4%BB%A5%E9%9B%86%E5%90%88%E4%B8%BA%E5%AF%B9%E8%B1%A1"><span class="nav-number">1.</span> <span class="nav-text">关系代数-以集合为对象</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C"><span class="nav-number">1.1.</span> <span class="nav-text">基本操作</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%85%B3%E7%B3%BB%E5%85%83%E7%BB%84"><span class="nav-number">2.</span> <span class="nav-text">关系元组</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%83%E7%BB%84%E6%BC%94%E7%AE%97-%E4%BB%A5%E5%85%83%E7%BB%84%E4%B8%BA%E5%AF%B9%E8%B1%A1"><span class="nav-number">2.1.</span> <span class="nav-text">元组演算-以元组为对象</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%A8%E7%A7%B0%E9%87%8F%E8%AF%8D%E4%B8%8E%E5%AD%98%E5%9C%A8%E9%87%8F%E8%AF%8D"><span class="nav-number">2.2.</span> <span class="nav-text">全称量词与存在量词</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%83%E7%BB%84%E6%BC%94%E7%AE%97%E7%AD%89%E4%BB%B7%E5%8F%98%E6%8D%A2-%E4%BB%A5%E5%9F%9F%E4%B8%BA%E5%AF%B9%E8%B1%A1"><span class="nav-number">2.3.</span> <span class="nav-text">元组演算等价变换-以域为对象</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%83%E7%BB%84%E5%9F%9F%E6%BC%94%E7%AE%97"><span class="nav-number">2.4.</span> <span class="nav-text">元组域演算</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%B3%E7%B3%BB%E6%BC%94%E7%AE%97%E7%9A%84%E5%AE%89%E5%85%A8%E6%80%A7"><span class="nav-number">2.5.</span> <span class="nav-text">关系演算的安全性</span></a></li><li class="nav-item nav-level-2"><a class="nav-link"><span class="nav-number">2.6.</span> <span class="nav-text"></span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
